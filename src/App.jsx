@@ -7,12 +7,13 @@ import Home from './pages/Home'
 import Hotelsview from './pages/Hotelsview'
 import Udashboard from './pages/Udashboard'
 import Footer from './Components/Footer'
-
+import Header from './Components/Header'
 function App() {
 
 
   return (
     <>
+    <Header></Header>
      <Routes>
 <Route path='/' element={<Home/>}/>
 <Route path='/login' element={<Auth/>}/>
