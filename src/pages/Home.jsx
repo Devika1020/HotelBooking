@@ -23,8 +23,9 @@ function Home() {
    </marquee>
    <div className='text-center '>
    
+   <Link className='btn btn-success mt-3' to={'/viewhotel'}>View Hotels</Link>
 
-       <button   className='btn btn shadow btn-success '><u>View Hotels</u></button>
+       {/* <button   className='btn btn shadow btn-success '><u>View Hotels</u></button> */}
    </div>
    
      </div>

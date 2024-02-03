@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Card from 'react-bootstrap/Card';
 import { useState } from 'react';
 import Modal from 'react-bootstrap/Modal';
@@ -30,6 +31,9 @@ function Hotelcard() {
               <p>About Us : <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur facilis modi optio animi dolore! Quaerat nisi cupiditate veritatis laudantium impedit, repellat eligendi, vero soluta nemo eius optio incidunt possimus ipsum.</span>
               </p>
               <p>Place : <span className='fw-bolder text-danger'>Pathanamthitta</span></p>
+              <p>Rate: <span className='fw-bolder text-danger'>2000$</span></p>
+
+              <Link className='btn btn-success mt-3' to={'/booking'}>Book </Link>
             </Col>
 
           </Row>
@@ -39,6 +43,7 @@ function Hotelcard() {
           
         
       </Modal>
+      
    
    </>
   )

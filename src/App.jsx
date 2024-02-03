@@ -8,6 +8,7 @@ import Hotelsview from './pages/Hotelsview'
 import Udashboard from './pages/Udashboard'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
+import Booking from './Components/Booking'
 function App() {
 
 
@@ -21,6 +22,7 @@ function App() {
 <Route path='/admindashboard' element={<Adashboard/>}/>
 <Route path='/userdashboard' element={<Udashboard/>}/>
 <Route path='/viewhotel' element={<Hotelsview/>}/>
+<Route path='/booking' element={<Booking/>}/>
 <Route path='/*' element={<Navigate to={'/'}/>}/>
      </Routes>
      <Footer></Footer>
