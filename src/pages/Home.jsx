@@ -22,7 +22,9 @@ function Home() {
        </div>
    </marquee>
    <div className='text-center '>
-       <button  className='btn btn shadow '><u>View Hotels</u></button>
+   
+
+       <button   className='btn btn shadow btn-success '><u>View Hotels</u></button>
    </div>
    
      </div>

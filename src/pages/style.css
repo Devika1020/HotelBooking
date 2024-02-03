@@ -19,3 +19,7 @@ position:absolute;
 top:60%;
 left:45%
 }
+
+.small-input {
+    width: 150px;
+}
