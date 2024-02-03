@@ -33,7 +33,7 @@ function Hotelcard() {
               <p>Place : <span className='fw-bolder text-danger'>Pathanamthitta</span></p>
               <p>Rate: <span className='fw-bolder text-danger'>2000$</span></p>
 
-              <Link className='btn btn-success mt-3' to={'/booking'}>Book </Link>
+              <Link className='btn btn-primary mt-3' to={'/booking'}>Book </Link>
             </Col>
 
           </Row>

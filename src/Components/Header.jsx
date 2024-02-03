@@ -12,13 +12,13 @@ import React from 'react'
         return (
             <Navbar className=" bg-dark">
                 <Container>
-                  <Navbar.Brand href="#home">
+                  <Navbar.Brand href="/">
                     
                      <i className="fa-solid fa-hotel text-white fs-3 mt-1 " /> 
                    <b className='ms-1 text-white'>Stay Easy</b>
                   
                    
-                  </Navbar.Brand><b  className='text-white'><u>Home </u>&nbsp; <u>Contact</u></b>
+                  </Navbar.Brand><b ><a href="/"  className='text-white'>Home </a>&nbsp; <a href="/ "  className='text-white'>Contact </a></b>
                  
                 </Container>
               </Navbar>
