@@ -24,8 +24,9 @@ import React from 'react'
                     {/* <a href="/"  className='text-white'>Home </a>&nbsp; <a href="/.footer "  className='text-white'>Contact </a> */}
                     <Link to="/" className='text-white'>Home </Link>&nbsp;
           <Link to="/" onClick={scrollToFooter} className='text-white'>Contact </Link>
+          
                     </b>
-                 
+                    
                 </Container>
               </Navbar>
           )

@@ -20,7 +20,7 @@ function App() {
 <Route path='/login' element={<Auth/>}/>
 <Route path='/register' element={<Auth insideRegister/>}/>
 <Route path='/admindashboard' element={<Adashboard/>}/>
-<Route path='/userdashboard' element={<Udashboard/>}/>
+<Route path='/userdashboard' element={<Udashboard />}/>
 <Route path='/viewhotel' element={<Hotelsview/>}/>
 <Route path='/booking' element={<Booking/>}/>
 <Route path='/*' element={<Navigate to={'/'}/>}/>

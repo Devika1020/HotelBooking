@@ -11,6 +11,8 @@ function Udashboard() {
             <th style={tableHeaderStyle}>Location</th>
             <th style={tableHeaderStyle}>Check-in Date</th>
             <th style={tableHeaderStyle}>Check-out Date</th>
+            <th style={tableHeaderStyle}>Number of Person</th>
+            <th style={tableHeaderStyle}>Room Type</th>
             <th style={tableHeaderStyle}>Rate</th>
           </tr>
         </thead>
@@ -20,6 +22,8 @@ function Udashboard() {
             <td style={tableCellStyle}>Pathanamthitta</td>
             <td style={tableCellStyle}>2024-02-04</td>
             <td style={tableCellStyle}>2024-02-06</td>
+            <td style={tableCellStyle}>2</td>
+            <td style={tableCellStyle}>Double</td>
             <td style={tableCellStyle}>$2000</td>
           </tr>
           
