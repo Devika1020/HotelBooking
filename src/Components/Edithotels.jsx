@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Modal,Button } from 'react-bootstrap'
-
+import im from '../assets/im.jpg'
 
 function Edithotels() {
   const [show,setShow]=useState(false)
@@ -17,19 +17,21 @@ function Edithotels() {
         centered
       >
         <Modal.Header closeButton>
-          <Modal.Title>Project Details</Modal.Title>
+          <Modal.Title>Hotel Details</Modal.Title>
         </Modal.Header>
         <Modal.Body>
         <div className='row'>
-            <div className='col-lg-4'>
+            <div className='col-lg-6'>
+
 <label className='align-items-center d-flex justify-content-center'>
-  <input type="file" style={{display:'none',}}/>
-  <img src="" alt=" upload Hotel pic" />
-  &nbsp; <i  className="fa-solid fa-upload  fs-3 mt-1 "></i>
+  <input type="file" style={{display:'none'}} />
+  <img src={im} alt=" upload hotel pic" height={'200px'}  />
 </label>
+<div className='text-danger ms-4  ' ><h6>*upload only the following file types (jpg, jpeg, png)*</h6></div>
+
             </div>
           
-          <div className='col-lg-8'>
+          <div className='col-lg-6'>
 <div className='mb-3'>
   <input type="text" className='border p-2 w-100' placeholder='Hotel Name'/>
   

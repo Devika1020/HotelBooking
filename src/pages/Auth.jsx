@@ -17,6 +17,7 @@ return (
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    
   }}
 >
 
@@ -30,7 +31,7 @@ return (
         backgroundColor: 'rgba(0, 0, 0, 0.6)', // Optional: Add a semi-transparent overlay to improve readability
         width: '400px',
         color: 'white',
-        marginBottom: '0', // Remove the bottom margin
+        
       }}
     >
       
