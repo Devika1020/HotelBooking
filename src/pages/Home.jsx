@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import load from '../assets/load.jpg'
+import Footer from '../Components/Footer'
 import Hotelcard from '../components/Hotelcard'
 import './style.css'
 function Home() {
@@ -29,6 +30,7 @@ function Home() {
    </div>
    
      </div>
+     <Footer></Footer>
      </>
   )
 }

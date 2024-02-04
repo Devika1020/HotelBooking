@@ -7,7 +7,7 @@ import { Form, Spinner } from 'react-bootstrap'
 function Auth({insideRegister}) {
 return (
 
-
+<>
 <div
   style={{
     width: "100%",
@@ -81,7 +81,7 @@ return (
   </div>
 </div>
 
-
+</>
   )
 }
 
